@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Together</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <img class=logo-container src="Logo.jpg"  >  
+          <a href="home.html"><h1><span>S</span>UNSHINE <span>T</span>RUST</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+        
+          <ul>
+            <li><a href="home.html" data-after="Home">Home</a></li>
+            <li><a href="work.html" data-after="work">Our work</a></li>
+            <li><a href="projects.html" data-after="Projects">Projects</a></li>
+            <li><a href="aboutus.html" data-after="About">About us</a></li>
+            <li><a href="help.html" data-after="Help">Need Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="donation" >
+    <div class="donate"><h1>Donation<h1></div>
+    <div class="pay">
+    <br>
+        <fieldset class="detail" >
+            <legend >Personal Details</legend>
+            <label>First name: <input type="text" name="firstname" value="First_Name"></label> 
+            <label>Last name: <input type="text" name="lastname" value="Last_Name"></label><br/><br/>
+            <label>Phone Number: <input type="text" name="phone" ></label>
+            <label>Tel Number: <input type="text" name="phone"></label><br/>
+            <br><label>Email: <input type="text" name="email"></label>
+        </fieldset>
+    <br>
+        <fieldset >
+        <label for ="start">Date of payment:</label>
+        <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2050-12-31">
+        <br><br>
+        <label for="payment">Mode of payment:</label>
+        <select name="payment:" >
+            <option value="Card">Debit/Credit</option>
+            <option value="Upi">Gpay </option>
+            <option value="Wallet">Paytm</option>
+            <option value="Cash">CASH</option>
+            </select>
+        <br><br>
+        <label for="Location">Branch:</label>
+        <select name="Location" >
+            <option value="mumbai">Mumbai</option>
+            <option value="Elctronics">Pune</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kolkata">Kolkata</option>
+        </select>
+        </fieldset>
+    <br>
+        <fieldset >
+        
+        <a>Amount paid 
+          <label><input type="radio" name="amount" value="100">Rs100</label>
+          <label><input type="radio" name="amount" value="250">Rs250</label> 
+          <label><input type="radio" name="amount" value="500">Rs500</label>
+          <label><input type="text" name="amount" value=" "> </label> 
+         
+        </a>
+        <br><br>
+        <a for="comment">Any comments, questions or suggestions? : <br>
+            <textarea rows="2" cols="40" name="address" id="address"></textarea>
+        </a>
+        </fieldset>
+    <br><input type="submit" value="Submit" class="button" >  
+    </div>
+ </div>
+  </section>
+
+</body>
+</html
